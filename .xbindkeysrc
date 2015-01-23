@@ -1,0 +1,49 @@
+# Model M Caps Lock Switch
+"xmodmap /home/llawwehttam/.xmodmap-modelm"
+	alt + shift + 3
+
+"setxkbmap us"
+	alt + shift + 2
+
+"setxkbmap gb"
+	alt + shift + 1 
+
+"~/.scripts/pulsevol.sh up"
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
+
+"~/.scripts/pulsevol.sh down"
+    m:0x0 + c:122
+    XF86AudioLowerVolume
+
+"~/.scripts/pulsevol.sh toggle"
+    m:0x0 + c:121
+    XF86AudioMute
+
+"~/.scripts/pulsevol.sh up"
+    m:0x40 + c:86
+    Mod4 + Add
+
+"~/.scripts/pulsevol.sh down"
+    m:0x40 + c:82
+    Mod4 + Subtract
+
+"~/.scripts/pulsevol.sh toggle"
+    m:0x40 + c:63
+    Mod4 + Multiply
+
+"mpc next"
+    m:0x41 + c:60
+    Shift+Mod4 + period
+    
+"mpc prev"
+    m:0x41 + c:59
+    Shift+Mod4 + comma
+
+"mpc toggle"
+    m:0x0 + c:172
+    XF86AudioPlay
+
+"~/.scripts/herbsinit.sh"
+    m:0x41 + c:49
+    Shift+Mod4 + grave

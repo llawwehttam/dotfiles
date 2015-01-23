@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/llawwehttam/Documents/Websites/github/llawwehttam.github.io/_layouts'
+let g:netrw_dirhist_2='/home/llawwehttam/Documents/Websites/github/llawwehttam.github.io/_includes'
+let g:netrw_dirhist_3='/disks/data/llawwehttam/Computers/Web Dev/Steelhorn - xampp'
+let g:netrw_dirhist_4='/home/llawwehttam/Documents/Websites/github/llawwehttam.github.io/_layouts'
