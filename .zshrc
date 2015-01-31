@@ -195,3 +195,6 @@ fi
 
 # Auto-open some programs with specific window names.
 ~/.scripts/zshrun.sh
+
+# PHP Homestead Laravel etc...
+PATH="/home/llawwehttam/.composer/vendor/bin:$PATH"
