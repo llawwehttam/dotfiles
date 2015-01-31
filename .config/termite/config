@@ -18,26 +18,43 @@ cursor_shape = block
 browser = chromium
 
 [colors]
-foreground = #dcdccc
-foreground_bold = #dcdccc
-background = rgba(63, 63, 63, 0.85)
-cursor = #dcdccc
 
-# Zenburn colorscheme... or close enough
-color0 = #3f3f3f
-color1 = #705050
-color2 = #60b48a
-color3 = #dfaf8f
-color4 = #506070
-color5 = #dc8cc3
-color6 = #8cd0d3
-color7 = #DCDCCC
- 
-color8 = #709080
-color9 = #cc9393
-color10 = #7f9f7f
-color11 = #f0dfaf
-color12 = #94bff3
-color13 = #ec93d3
-color14 = #93e0e3
-color15 = #ffffff
+# special
+foreground      = #c0b18b
+foreground_bold = #c0b18b
+cursor          = #c0b18b
+#background      = #1f1f1f
+background = rgba(31 ,31, 31, 0.85)
+
+# black
+color0  = #4a3637
+color8  = #4a3637
+
+# red
+color1  = #d17b49
+color9  = #d17b49
+
+# green
+color2  = #7b8748
+color10 = #7b8748
+
+# yellow
+color3  = #af865a
+color11 = #af865a
+
+# blue
+color4  = #535c5c
+color12 = #535c5c
+
+# magenta
+color5  = #775759
+color13 = #775759
+
+# cyan
+color6  = #6d715e
+color14 = #6d715e
+
+# white
+color7  = #c0b18b
+color15 = #c0b18b
+
