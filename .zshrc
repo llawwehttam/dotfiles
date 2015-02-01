@@ -132,12 +132,6 @@ extract () {
 	fi
 }
 
-
-# Setup rvm for ruby
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-
 #Coloured Manpages
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -198,3 +192,6 @@ fi
 
 # PHP Homestead Laravel etc...
 PATH="/home/llawwehttam/.composer/vendor/bin:$PATH"
+
+# rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
