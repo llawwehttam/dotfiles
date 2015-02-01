@@ -15,8 +15,8 @@ set incsearch
 set t_Co=256
 filetype on
 
-let g:solarized_termtrans=1
-colorscheme zenburn
+"let g:solarized_termtrans=1
+colorscheme slate
 
 map <F2> :NERDTreeToggle<CR>
 set showtabline=2
